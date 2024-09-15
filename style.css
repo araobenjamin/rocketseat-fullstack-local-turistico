@@ -1,0 +1,167 @@
+
+/* #region Setup */
+
+:root {
+    font-family: "Open Sans", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* #endregion Setup */
+
+/* #region Colors */
+
+.accent-blue {
+    color: #0c51a7;
+}
+
+.accent-purple {
+    color: #591b98
+}
+
+.accent-pink {
+    color: #e5245e;
+}
+
+.accent-orange {
+    color: #e95e10;
+}
+
+/* #endregion Colors */
+
+/* #region Text Style */
+
+figcaption {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    color: #333333;
+}
+
+h1 {
+    color: #1B1B1B;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #333333;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #696969;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: #E1624F;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer>p {
+    text-align: center;
+}
+
+.list-title {
+    font-weight: bold;
+}
+
+li {
+    font-weight: bold;
+}
+
+/* #endregion Text Style */
+
+/* #region Images */
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 28px;
+}
+
+section>img {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* #endregion Images */
+
+/* #region Position */
+
+figure {
+    margin-block: 40px;
+    width: 100%;
+}
+
+figcaption {
+    margin-top: 24px;
+}
+
+article {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 8px;
+}
+
+article > * {
+    margin-block: 40px;
+}
+
+article > main > header {
+    margin-block: 64px;
+}
+
+article> main > header > h2 {
+    margin-block-start: 2px;
+    margin-block-end: 8px;
+}
+
+article > main > section > img {
+    margin-bottom: 20px;
+}
+
+article > main > section > h2 {
+    margin-bottom: 4px;
+    margin-left: 8px;
+}
+
+section + section {
+    margin-top: 48px;
+}
+
+li {
+    margin-left: 26px;
+}
+
+article > main {
+    margin-bottom: 40px;
+}
+
+article > footer {
+    margin-top: 40px;
+}
+
+footer {
+    margin-block: 60px;
+}
+
+/* #endregion Position */
